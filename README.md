@@ -1,15 +1,15 @@
-# chuckNorris-jokeGenerator-swift
-![pokemon](https://github.com/lupeMorales/who-is-that-pokemon/blob/main/WhoIsThatPKMN/who%20is%20that%20pokemon/Assets.xcassets/pokeball.imageset/pokeball_logo-removebg-preview%402x.png)
 
 # Chuck Norris Joke Generator 
     
-   This project is an automatic Chuck Norris Joke Generator.
+   This project is an automatic Chuck Norris Joke Generator. I have used  the free JSON API  <a href="https://api.chucknorris.io/" target="_blank"> chucknorris.io</a>
 
 
 
 ## Preview:
 
-![Screen Shot](https://github.com/lupeMorales/who-is-that-pokemon/blob/main/WhoIsThatPKMN/preview.png?raw=true)
+
+
+<img src="https://github.com/lupeMorales/chuckNorris-jokeGenerator-swift/blob/main/Simulator%20Screen%20Shot%20-%20iPhone%2014%20Pro%20-%202022-12-17%20at%2019.21.37.png?raw=true" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="300" height="600" />
 
 
 ## Feactures:
