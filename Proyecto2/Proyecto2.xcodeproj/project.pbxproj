@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		ECC9D8A5294E167F00E4B00A /* DataJoke.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC9D8A4294E167F00E4B00A /* DataJoke.swift */; };
 		ECC9D8A7294E169800E4B00A /* NetworkingProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC9D8A6294E169800E4B00A /* NetworkingProvider.swift */; };
-		ECC9D8AA294E181B00E4B00A /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = ECC9D8A9294E181B00E4B00A /* Alamofire */; };
 		ECE867E329264D84009A8A46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE867E229264D84009A8A46 /* AppDelegate.swift */; };
 		ECE867E529264D84009A8A46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE867E429264D84009A8A46 /* SceneDelegate.swift */; };
 		ECE867E729264D84009A8A46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE867E629264D84009A8A46 /* ViewController.swift */; };
 		ECE867EA29264D84009A8A46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECE867E829264D84009A8A46 /* Main.storyboard */; };
 		ECE867EC29264D86009A8A46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECE867EB29264D86009A8A46 /* Assets.xcassets */; };
 		ECE867EF29264D86009A8A46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECE867ED29264D86009A8A46 /* LaunchScreen.storyboard */; };
+		ECF3A294294F656C00CD6983 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = ECF3A293294F656C00CD6983 /* Alamofire */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,7 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECC9D8AA294E181B00E4B00A /* Alamofire in Frameworks */,
+				ECF3A294294F656C00CD6983 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,7 +108,7 @@
 			);
 			name = Proyecto2;
 			packageProductDependencies = (
-				ECC9D8A9294E181B00E4B00A /* Alamofire */,
+				ECF3A293294F656C00CD6983 /* Alamofire */,
 			);
 			productName = Proyecto2;
 			productReference = ECE867DF29264D84009A8A46 /* Proyecto2.app */;
@@ -139,7 +139,7 @@
 			);
 			mainGroup = ECE867D629264D84009A8A46;
 			packageReferences = (
-				ECC9D8A8294E181B00E4B00A /* XCRemoteSwiftPackageReference "Alamofire" */,
+				ECF3A292294F656C00CD6983 /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = ECE867E029264D84009A8A46 /* Products */;
 			projectDirPath = "";
@@ -322,6 +322,7 @@
 				DEVELOPMENT_TEAM = 4325WCFQGF;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Proyecto2/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Chuck Norris";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -350,6 +351,7 @@
 				DEVELOPMENT_TEAM = 4325WCFQGF;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Proyecto2/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Chuck Norris";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -392,7 +394,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		ECC9D8A8294E181B00E4B00A /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+		ECF3A292294F656C00CD6983 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
 			requirement = {
@@ -403,9 +405,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		ECC9D8A9294E181B00E4B00A /* Alamofire */ = {
+		ECF3A293294F656C00CD6983 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = ECC9D8A8294E181B00E4B00A /* XCRemoteSwiftPackageReference "Alamofire" */;
+			package = ECF3A292294F656C00CD6983 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
 		};
 /* End XCSwiftPackageProductDependency section */

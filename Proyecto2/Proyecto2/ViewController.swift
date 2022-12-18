@@ -55,8 +55,8 @@ class ViewController: UIViewController {
         joke.numberOfLines = 0
         joke.textAlignment = .center
         
-        
-        likeCounterLabel.text = UserDefaults.standard.integer(forKey: kTotalLikes).description
+        likeCounterLabel.text = likeCount.description
+    
         likeCounterLabel.font = UIFont.systemFont(ofSize: 16)
     
        
@@ -71,7 +71,7 @@ class ViewController: UIViewController {
         activityIndicator.stopAnimating()
         newJokeAction(self)
         
-     
+        likeCounterLabel.text = UserDefaults.standard.integer(forKey: kTotalLikes).description
 
     }
     
@@ -80,7 +80,8 @@ class ViewController: UIViewController {
     
     
     @IBAction func likeButtonAction(_ sender: Any) {
-        
+   
+        likeCount = UserDefaults.standard.integer(forKey: kTotalLikes)
         likeCount += 1
         UserDefaults.standard.set(likeCount, forKey: kTotalLikes)
         
@@ -107,6 +108,7 @@ class ViewController: UIViewController {
             self.joke.text = error.debugDescription
             
         }
+        
         
       
         
